@@ -35,16 +35,16 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Together We Stand", "Divided We Fall"],
+        strings: ["Not a drop to drink", "Life losses are on the brink"],
         typeSpeed: 50,
-        backSpeed: 40,
+        backSpeed: 30,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Doctors", "Social-Workers"],
+        strings: ["Mission", "Vision"],
         typeSpeed: 70,
-        backSpeed: 50,
+        backSpeed: 40,
         loop: true
     });
 
