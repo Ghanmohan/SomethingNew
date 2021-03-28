@@ -17,8 +17,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                { pageLanguage: 'en' },
+                'google_translate_element'
+            );
+        }
+    </script>
+    <script type="text/javascript"
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+        </script>
 </head>
+<style>
+
+</style>
 
 <body>
     <div class="scroll-up-btn">
@@ -47,14 +60,24 @@
     <section class="home" id="home">
         <div class="max-width">
             <div class="home-content">
-                <div class="text-1">
-                    Water , Water</div>
-                <div class="text-2">
-                    Everywhere</div>
-                <div class="text-3">
-                    <span class="typing"></span>
+                <div class="column-left">
+                    <div class="text-1">
+                        Water , Water</div>
+                    <div class="text-2">
+                        Everywhere</div>
+                    <div class="text-3">
+                        <span class="typing"></span>
+                    </div>
+                    <a href="#">Pyau Near Me</a>
+                    <div id="google_translate_element"></div>
                 </div>
-                <a href="#">Pyau Near Me</a>
+                <div class="column-right">
+                    <div class="container">
+                        <input type="text" id="qrtext" placeholder="Enter Text">
+                        <img src="./default.svg" id="qrimg" alt="qr-code">
+                        <button id="qrbutton">Generate QR Code</button>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -82,21 +105,6 @@
 
                 </div>
             </div>
-            <div id="google_translate_element"></div>
-
-            <script type="text/javascript">
-                function googleTranslateElementInit() {
-                    new google.translate.TranslateElement(
-                        { pageLanguage: 'en' },
-                        'google_translate_element'
-                    );
-                }
-            </script>
-             <script type="text/javascript"
-                src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
-            </script>
-
-           
         </div>
     </section>
 
@@ -270,11 +278,6 @@
         </div>
     </section>
 
-    <!-- footer section start -->
-    <footer>
-        <span> <span class="far fa-copyright"></span> 2021 All rights
-            reserved.</span>
-    </footer>
 </body>
 
 
