@@ -7,6 +7,13 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+.goog-logo-link {
+    display:none !important;
+} 
+    
+.goog-te-gadget{
+    color: transparent !important;
+}
 html{
     scroll-behavior: smooth;
 }
